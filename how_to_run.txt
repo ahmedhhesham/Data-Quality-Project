@@ -1,0 +1,17 @@
+To run the application follow this steps:
+
+1- make a virtual environment by running the command in the terminal:
+	python -m venv DQ_Project 
+	where DQ_Project is the name of virtual environment
+
+2- activate the virtual environment by running the command in the terminal:
+	DQ_Project\Scripts\activate 
+
+3- install the libraries in the virtual environment from the requirements file by running the command in the terminal:
+	pip install -r requirements.txt
+
+4- run the application using the streamlit library by running the command in the terminal:
+	streamlit run DQ_Analysis.py
+	where DQ_Analysis.py is the name of the python file which contain
+	the source code
+	
